@@ -11,7 +11,7 @@ end
 
 
 class Contact < ActiveRecord::Base
-  self.table_name = 'rsdemo.contact'
+  self.table_name = 'rsdemo2.contact'
 end
 
 get "/contacts" do
